@@ -19,3 +19,10 @@ psql -d postgres # macOS
 ```
 uv run alembic init alembic 
 ```
+
+- alembic revision
+```
+uv run alembic revision --autogenerate -m "create posts"
+```
+
+
