@@ -14,3 +14,8 @@ uv add "fastapi[standard]" sqlalchemy "psycopg[binary]" alembic
 ``` 
 psql -d postgres # macOS
 ```
+
+- alembic init
+```
+uv run alembic init alembic 
+```
